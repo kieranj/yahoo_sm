@@ -6,7 +6,7 @@ module YahooSM
     
     attr_reader :file_output_type, :zipped
     
-    def initialize(file_output_type, zipped = true)
+    def initialize(file_output_type, zipped = false)
       @file_output_type = file_output_type
       @zipped           = zipped
     end
