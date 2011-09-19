@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kieran Johnson"]
-  s.date = %q{2011-09-01}
+  s.date = %q{2011-09-19}
   s.description = %q{Wrapper to the Yahoo Search Marketing API}
   s.email = %q{hello@invisiblelines.com}
   s.extra_rdoc_files = [
