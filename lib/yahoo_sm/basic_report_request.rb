@@ -105,10 +105,9 @@ module YahooSM
       result = {
         "#{API_VERSION}:reportName"  => @name,
         "#{API_VERSION}:reportType"  => @report_type,
-        # "#{API_VERSION}:startDate"   => nil,
-        # "#{API_VERSION}:endDate"     => nil,
-        "#{API_VERSION}:dateRange"   => "Yesterday"#,
-        # "#{API_VERSION}:campaignIDs" => (campaign_ids.empty? ? nil : campaign_ids)
+        "#{API_VERSION}:startDate"   => @start_date,
+        "#{API_VERSION}:endDate"     => @end_date,
+        "#{API_VERSION}:campaignIDs" => (campaign_ids.empty? ? nil : campaign_ids)
       }
       result
     end
